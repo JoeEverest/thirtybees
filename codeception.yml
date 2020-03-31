@@ -35,3 +35,5 @@ coverage:
         - controllers/*
     low_limit: 30
     high_limit: 70
+    - name: FTP Deploy
+  uses: SamKirkland/FTP-Deploy-Action@3.0.0
